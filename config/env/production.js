@@ -17,9 +17,9 @@ module.exports = {
    * environment (see config/connections.js and config/models.js )           *
    ***************************************************************************/
 
-  models: {
-    connection: 'mongoLabMongoDb'
-  },
+  // models: {
+  //   connection: 'mongoLabMongoDb'
+  // },
 
    hookTimeout: 300000,
    
@@ -33,8 +33,8 @@ module.exports = {
    * Set the log level in production environment to "silent"                 *
    ***************************************************************************/
 
-  log: {
-    level: "silent"
-  }
+  // log: {
+  //   level: "silent"
+  // }
 
 };
